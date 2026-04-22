@@ -427,6 +427,32 @@ export default function MVCVectorInterno() {
             {metrics.interp||"—"}
           </div>
 
+          <div style={{ flexShrink:0, fontFamily:T.mono, fontSize:9, lineHeight:1.7, color:T.textDim,
+            padding:"0.45rem 0.75rem", borderTop:`0.5px solid ${T.borderDim}`, background:"rgba(0,200,175,0.02)" }}>
+            <span>Si quieres saber mas sobre el tema y libros da click </span>
+            <a
+              href="https://www.amazon.com/author/s_angeloz"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color:T.cyan, textDecoration:"underline" }}
+            >
+              aqui
+            </a>
+            <span>.</span>
+            <br />
+            <span>
+              © abril 2026 serge Angeloz ·{" "}
+            </span>
+            <a
+              href="https://www.amazon.com/author/s_angeloz"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color:T.cyan, textDecoration:"underline" }}
+            >
+              Pagina de autor
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
